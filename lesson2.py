@@ -72,8 +72,10 @@ elif operation == "*":
 elif operation == "/":
   if num2 == 0:
     print("error: cannot divide by zero")
+    result = "undefined"
+  else:
+    result = num1/num2
 else:
-  result = num1/num2
   result = "invalid operation"
 # TODO: Handle the case of division by zero
 # TODO: Print the result of the operation
